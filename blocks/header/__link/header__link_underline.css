@@ -2,3 +2,7 @@
     margin-right: 18px;
     text-decoration: underline;
 }
+
+.header__link_underline:hover {
+    opacity: 0.8;
+  }
