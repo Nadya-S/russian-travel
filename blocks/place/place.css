@@ -1,4 +1,4 @@
-.place__item {
+.place {
     list-style-type: none;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     margin-bottom: 80px;
@@ -11,26 +11,26 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .place__item {
+    .place {
       grid-template-columns: 440px 1fr;
       grid-gap: 48px 32px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .place__item {
+    .place {
       grid-template-columns: 340px 1fr;
       grid-gap: 48px 28px;
       margin: 0 16px 73px 32px;
     }
 
-    .place__item:last-child {
+    .place:last-child {
         margin-bottom: 0;
     }
   }  
 
   @media screen and (max-width: 676px) {
-    .place__item {
+    .place {
       grid-template-columns: 1fr;
       grid-template-areas:
         "title"
