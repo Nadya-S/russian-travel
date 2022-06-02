@@ -5,13 +5,18 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.1;
-  text-align: end;
+  min-width: 200px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 715px) {
+  .footer__author {
+    min-width: 154px;
+  }
+}
+
+@media screen and (max-width: 494px) {
   .footer__author {
     margin-top: 24px;
-    text-align: start;
     line-height: 1;
   }
 }

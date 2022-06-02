@@ -1,4 +1,4 @@
-.places__item {
+.item__places {
     list-style-type: none;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     margin-bottom: 80px;
@@ -11,26 +11,26 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .places__item {
+    .item__places {
       grid-template-columns: 440px 1fr;
       grid-gap: 48px 32px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .places__item {
+    .item__places {
       grid-template-columns: 340px 1fr;
       grid-gap: 48px 28px;
       margin: 0 16px 73px 32px;
     }
 
-    .places__item:last-child {
+    .item__places:last-child {
         margin-bottom: 0;
     }
   }  
 
   @media screen and (max-width: 676px) {
-    .places__item {
+    .item__places {
       grid-template-columns: 1fr;
       grid-template-areas:
         "title"
