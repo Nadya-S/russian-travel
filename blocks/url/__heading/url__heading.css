@@ -3,6 +3,13 @@
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1;
+  line-height: 1.7;
   letter-spacing: 2px;
+  margin: 0 0 12px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .url__heading {
+    line-height: 1;
+  }
 }

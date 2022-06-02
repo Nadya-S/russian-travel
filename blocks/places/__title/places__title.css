@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1;
+  line-height: 1.06;
   margin: 0;
 }
 
@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 6480px) {
+@media screen and (max-width: 480px) {
   .places__title {
     font-size: 32px;
   }

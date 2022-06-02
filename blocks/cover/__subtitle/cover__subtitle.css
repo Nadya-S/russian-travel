@@ -14,3 +14,10 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .cover__subtitle {
+    line-height: 1.1;
+    margin: 16px auto 0 auto;
+  }
+}
