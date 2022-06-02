@@ -1,4 +1,4 @@
-.item__places {
+.place__item {
     list-style-type: none;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     margin-bottom: 80px;
@@ -11,26 +11,26 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .item__places {
+    .place__item {
       grid-template-columns: 440px 1fr;
       grid-gap: 48px 32px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .item__places {
+    .place__item {
       grid-template-columns: 340px 1fr;
       grid-gap: 48px 28px;
       margin: 0 16px 73px 32px;
     }
 
-    .item__places:last-child {
+    .place__item:last-child {
         margin-bottom: 0;
     }
   }  
 
   @media screen and (max-width: 676px) {
-    .item__places {
+    .place__item {
       grid-template-columns: 1fr;
       grid-template-areas:
         "title"
