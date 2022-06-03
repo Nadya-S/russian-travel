@@ -10,7 +10,7 @@
         "image text";
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1052px) {
     .place {
       grid-template-columns: 440px 1fr;
       grid-gap: 48px 32px;
